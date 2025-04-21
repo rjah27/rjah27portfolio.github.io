@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>La Paola</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>La Paola</h1>
+        <div class="nav">
+           <a href="#ourstory">Our Story</a> &nbsp;
+           <a href="#menu">Menu</a> &nbsp;
+           <a href="#contact">Contact</a>
+        </div>
+        <img src="terraza-2.jpg" alt="La Paola Interior" class="header-image">
+     </header>
+
+     <br/>
+     <br/>
+     <br/>
+
+     <section id="ourstory">
+        <h2>Our Story</h2>
+        <div class="Story">
+            <p>La Paolo brings a new, yet traditional experience to Italian and Argentine Cuisine. 
+                The fusion between two cultures encapsulated in the art we create in our kitchen. 
+                Our specialty techniques and in conjunction with our spectacular assortment of beverages, it createsan unmatched gastronomic experience for all food lovers.  </p>
+        </div>
+    <br/>
+    <br/>
+    <br/>
+
+     </section>
+     <section id="menu">
+        <h2>Menu Highlights</h2>
+        <div class="Menu">
+            <img src="churrasco.jpg" alt="picanha" class="menu-item" onclick="showEnlarged(this)" data-desc="Our Picanha Wagyu with papas al horno.">
+            <img src="carpaccio-de-ternera-con-parmesano.jpg" alt="carpaccio" class="menu-item" onclick="showEnlarged(this)" data-desc="Prime Tenderloin  Carpaccio with chopped capers, onion, sweet pepper with shavings of Parmesan cheese.">
+            <img src="IMG_2345-1.jpg" alt="capellini" class="menu-item" onclick="showEnlarged(this)" data-desc="Fresh Tomato Capellini, thin pasta in natural tomato basil.">
+        </div>
+     </section>
+     <br/>
+     <br/>
+     <br/>
+     <section id="contact">
+        <div id="Contact">
+        <footer>
+            <p>1063 Wisconsin Ave NW, Washington, DC 20007<br>Discover the unique experience at our prime location in Washington DC. <br>With exceptional customer service and a welcoming atmosphere, we are glad to host our guests.<br>
+                <a href="contact@lapaola.com">contact@lapaola.com</a>
+            </p>
+        </footer>
+        </div>
+
+     </section>
+     <div class="enlarged" id="enlarged" onclick="closeEnlarged(event)">
+        <div class="enlarged-content">
+            <img id="enlarged-img">
+            <p id="enlarged-text"></p>
+        </div>
+    </div>
+    <section id="map">
+        <p>Find Us <br> Visit us at: 1063 Wisconsin Ave NW, Washington, DC 20007</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99355.36438310456!2d-77.19444253749998!3d38.9044279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b64bfd853a3d%3A0x603d1999c9518ff6!2sFilomena%20Ristorante!5e0!3m2!1sen!2sus!4v1743385475004!5m2!1sen!2sus" width="600" height="450"></iframe>"
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
