@@ -1,0 +1,57 @@
+:root {
+    background-color: rgb(85, 117, 145);
+    text-decoration-color: rgb(171,177,209);
+}
+
+h3
+{
+    background-color: aliceblue;
+    color:rgb(9, 27, 164);
+}
+
+ol
+{
+    background-color: aliceblue;
+    color:rgb(9, 27, 164);
+}
+ul
+{
+    background-color: aliceblue;
+    color:rgb(9, 27, 164);
+}
+img {
+    width: 50%;
+    height: auto;
+    
+}
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        }
+
+h1 {
+    text-align: center;
+    border: 2px solid black;
+    border-style: dashed;
+    background-color: aliceblue;
+    color:rgb(9, 27, 164);
+    }
+
+h2 {
+    text-align: center;
+    border: 2px solid black;
+    border-style: dashed;
+    background-color: aliceblue;
+    color:rgb(9, 27, 164);
+    }
+
+
+p {
+    text-align: center;
+    border: 2px solid black;
+    border-style: dashed;
+    background-color: aliceblue;
+    color:rgb(9, 27, 164);
+}

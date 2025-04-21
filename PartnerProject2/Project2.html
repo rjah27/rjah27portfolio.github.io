@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Partner Project</title>
+    <script src="programs.js"></script> 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="background">
+    <div class="box">
+        <h1 id="greeting">Welcome User!</h1>
+        <br/>
+        <p id="text">This is our project page, you can customize this text using the function below!</p>
+        <br/>
+        <br/>
+        <p>Change Greeting here</p>
+        <input type="text" id="newGreeting" name="newGreeting">
+
+        <br/>
+        <p>Change subtext here</p>
+        <input type="text" id="newText" name="newText">
+
+        <br/>
+        <br/>
+        <nav>
+                <div class="dropdown">
+                    <p class="dropbtn">Background Color selection</p>
+                    <div class="dropdown-content" name="options" id="options">
+                        <form id ="buttonDiv"> 
+                            <select name="newColor" id="newColor">
+                              <option value="red">red</option>
+                              <option value="green">green</option>
+                              <option value="blue">blue</option>
+                              <option value="yellow">yellow</option>
+                            </select>
+                          </form>
+                    </div>
+                </div>
+        </nav>
+        <input type="button" value="Submit Information" onclick="submit()">
+    </div>
+</body>
+</html>
